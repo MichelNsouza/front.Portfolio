@@ -10,7 +10,7 @@ import HeaderComponente from '@/components/HeaderComponente.vue';
 
   <HeaderComponente />
 
-  <main class="content">
+  <main class="content bg-primary-subtle pt-3">
     <router-view />
   </main>
 
@@ -20,7 +20,7 @@ import HeaderComponente from '@/components/HeaderComponente.vue';
 
 <style scoped>
 html {
-  scroll-behavior: smooth;
+  /*scroll-behavior: smooth;*/
 }
 .content {
   width: 100%;

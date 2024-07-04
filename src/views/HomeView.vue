@@ -33,11 +33,13 @@ export default {
 </script>
 
 <template>
-  <div class="row justify-content-center">
-    <div class="col-md-7">
-      <div class="row">
-        <div v-for="projeto in todosProjetos" :key="projeto.id" class="col-md-4">
-          <CardComponente :projeto="projeto" />
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+        <div class="row">
+          <div v-for="projeto in todosProjetos" :key="projeto.id" class="col-sm-12 col-md-6 col-lg-4 mb-4 d-flex align-items-center justify-content-center">
+            <CardComponente :projeto="projeto" />
+          </div>
         </div>
       </div>
     </div>
