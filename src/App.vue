@@ -1,21 +1,29 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import {RouterView } from 'vue-router';
+
+import FooterComponente from '@/components/FooterComponente.vue';
+import HeaderComponente from '@/components/HeaderComponente.vue';
+
 </script>
 
 <template>
-  <header>
 
-  </header>
-  <main>
-    <RouterView />
+  <HeaderComponente />
+
+  <main class="content">
+    <router-view />
   </main>
-  <footer>
 
-  </footer>
+  <FooterComponente />
 
 </template>
 
 <style scoped>
-
+html {
+  scroll-behavior: smooth;
+}
+.content {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+}
 </style>
