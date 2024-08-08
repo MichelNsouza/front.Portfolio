@@ -39,22 +39,3 @@ Quando estiver pronto para implantar sua aplicação, você pode compilar e mini
 ```sh
 npm run build
 ```
-
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
