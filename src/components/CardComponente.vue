@@ -1,5 +1,5 @@
 <template>
-  <div class="card m-1" style="width: 18rem;">
+  <div class="card m-1 shadow" style="width: 18rem;">
     <img :src="projeto.CaminhoImagem" class="card-img-top" alt="Imagem do projeto">
     <div class="card-body fixed-height">
       <h5 class="card-title">{{ projeto.titulo }}</h5>
@@ -8,7 +8,7 @@
     </div>
     <div class="card-body">
       <a :href="projeto.linkCodigoFonte" class="card-link" target="_blank">Código Fonte</a>
-      <a :href="projeto.linkDeploy" class="card-link" target="_blank">Deploy</a>
+      <a :href="projeto.linkDeploy" class="card-link" target="_blank">Ver Online</a>
     </div>
   </div>
 </template>

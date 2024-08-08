@@ -4,7 +4,7 @@
     <div class="d-flex justify-content-center align-items-center h-100">
 
       <div class="spinner-border text-primary" role="status">
-        <span class="visually-hidden">A pagina esta carregando...</span>
+        <span class="visually-hidden">Carregando...</span>
       </div>
 
     </div>
