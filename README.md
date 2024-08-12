@@ -18,7 +18,10 @@ O projeto trata-se de uma aplicação SPA, para consumir uma api que gerencia o 
 O código-fonte do backend associado a este projeto pode ser encontrado no seguinte repositório do GitHub: [API gerenciador de matriculas](https://github.com/MichelNsouza/api.Portfolio).
 
 ### Imagens
-EM CONSTRUÇÃO
+![image](https://github.com/user-attachments/assets/56360d44-a51b-4d22-ad76-89b0ff1277c8)
+![image](https://github.com/user-attachments/assets/227bee7b-470c-436e-bc9f-6872c0780b71)
+
+
 
 ### Configuração local do Projeto 
 Para começar, você precisa instalar as dependências do projeto. 
