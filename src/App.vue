@@ -16,7 +16,7 @@ export default {
 
 <template>
 
-  <LoadingComponente />
+  <!-- <LoadingComponente /> --> 
   
   <HeaderComponente />
 
