@@ -20,7 +20,7 @@ export default {
   
   <HeaderComponente />
 
-  <main class="content bg-primary-subtle pt-3">
+  <main class="content bg-fundo pt-3">
     <router-view />
   </main>
 
@@ -29,7 +29,10 @@ export default {
 </template>
 
 <style scoped>
-html {
+.bg-fundo{
+  background-color:#2c3e50;
+}
+  html {
   /*scroll-behavior: smooth;*/
 }
 .content {
